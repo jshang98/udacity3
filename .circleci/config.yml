@@ -10,7 +10,7 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - node/install
-          node-version: 11.15
+          node-version: "11.15"
       - checkout
       # install dependencies in both apps
       - run: node --version
